@@ -5,7 +5,7 @@ function mostrar() {
 	let precio;
 	let cantidad;
 	let inflamable;
-	let marca;
+	let Marca;
 	let acumALCOHOL=0;
 	let acumIAC=0;
 	let acumQUAT=0;
@@ -40,7 +40,7 @@ while(cantidad< 1 || cantidad > 1000){
 }inflamable= prompt("ingrese tipo de inflamabilidad, inifugo, combustible, explosivo ");
 while(inflamable != "inifugo" && inflamable != "combustible" && inflamable != "explosivo"){
 	inflamable = prompt("Error. ingrese un tipo de inflamabilidad valido, inifugo, combustible o explosivo");
-}marca = prompt("ingrese marca");
+}Marca = prompt("ingrese marca");
 
 
 if (tipo == "ALCOHOL"){
