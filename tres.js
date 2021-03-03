@@ -4,7 +4,7 @@ function mostrar()
 	let edad;
 	let temperatura;
 	let sexo;
-let seguir;
+let respuesta;
 let precioPorPasajero=600;
 let precioDescuentoPorPasajero= (600*0.75);
 let precioTotal;
@@ -50,7 +50,7 @@ if(edad > 60){
 }
 contadorPasajeros++;
 seguir = prompt("Desea seguir, coloque si de asi serlo")
-	}while(seguir == "si");
+	}while(respuesta == "si");
 
 	precioTotal = (600 * contadorPasajeros)
 	
