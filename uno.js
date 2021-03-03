@@ -60,7 +60,7 @@ if(tipo == "IAC" && precio <= 200){
 
 if(FlagMasCaro || precio > masCaro){
 	masCaro= precio;
-	marcaMasCaro = marca ;
+	marcaMasCaro = Marca ;
 	tipoMasCaro = tipo;
 	FlagMasCaro =0;                
 }
